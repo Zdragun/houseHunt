@@ -1,0 +1,71 @@
+.section-subscr
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.main-subscr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:  url('../assets/backgroundpurple.png') lightgray 50% / cover no-repeat;
+    min-height: 312px;
+    width: 100%;
+    margin-right: 120px;
+    margin-left: 120px;
+    border-radius: 32px;
+}
+
+.main-subscr h1 {
+    color: var(--color-darkblue);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: var(--weight-600);
+    line-height: 48px;
+    text-transform: capitalize;
+    padding-bottom: 32px;
+}
+
+.main-subscr input
+{
+    border-radius: 32px;
+    box-shadow: 0px 9px 32px 0px rgba(89, 92, 219, 0.05);
+    border: none;
+    background-color: var(--color-white);
+    width: 496px;
+    padding: 15px;
+    
+}
+
+.input-co
+{
+    position: relative;
+}
+
+.input-co input
+{
+    background-image: url('../assets/eva_email-fill.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center; 
+}
+.input-co button {
+    position: absolute;
+    right: 0.5%;
+    top: 10%;
+    padding: 12px 16px;
+    background-color: var(--color-green);
+    border-radius: 32px;
+    color: var(--color-white);
+    border: none;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: var(--weight-600);
+  }
+.main-subscr input::-moz-placeholder
+{
+    color: red;
+}
